@@ -1,0 +1,327 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+
+header{
+    background-color:brown ;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+   /* background-color: brown;*/
+    align-items: center;
+    padding: 10px;
+    /*margin: 10px;*/
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*.nav_first_div{
+    padding-left: 80px;
+}*/
+
+.nav_first_div img{
+    width: 30px;
+    padding-right:10px ;
+}
+
+.nav_first_div a{
+    text-decoration: none;
+    color: #42f578;
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+}
+
+.nav_second_div a{
+    text-decoration: none;
+    color: #42f578;
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+    
+}
+
+.nav_second_div a{
+    margin:0px 15px 0px 15px;
+
+}
+
+/* the styling for Help in the nav bar */
+#nav-id-one{
+    color: #42f578;
+}
+
+/* the hover of the styling for Help in the nav bar */
+#nav-id-one:hover{
+    font-size: 20px;
+    color: white;
+    border:solid 2px white;
+    border-radius: 3px;
+}
+
+/* the styling of the login in the nav bar */
+#nav-id-two{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 15px 5px 15px;
+    color: white;
+    border:solid 2px white;
+    border-radius: 15px;
+}
+
+/*the Hover of the styling of the login in the nav bar */
+#nav-id-two:hover{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #42f578;
+    padding: 5px 15px 5px 15px;
+    color: white;
+    border:solid 2px white;
+    border-radius: 15px;
+}
+
+/* the styling for the sign up inthe nav bar*/
+#nav-id-three{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 20px 5px 20px;
+    color: white;
+    border:solid 2px white;
+    border-radius: 15px;
+    background-color: #42f578;
+ }
+ 
+ /*the Hover of the styling for the sign up inthe nav bar*/
+ #nav-id-three:hover{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 20px 5px 20px;
+    color: white;
+    border:solid 2px white;
+    border-radius: 15px;
+    background-color: transparent;
+ }
+ /*The nav styling ends here */
+
+/* The first section starts here */
+.first-sess img{
+    width: 200px;
+} /* this is for the image in the section */
+
+/* this is the stylyihg for the first section*/
+.first-sess{
+    padding: 20px 50px 10px 50px;
+    margin-top: 10px;
+    justify-content: center;
+    /*text-align: center;*/
+    border-bottom: solid 2px rgb(31, 111, 71);
+}
+
+/* The container div for the first*/
+.first-sess-first-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* first div in mini container starts here */
+.first-mini-div{
+    padding-right: 80px;
+}
+
+/* The styling of the first div in mini container */
+.first-mini-div a{
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px;
+    margin-left: 10px;
+    color: white;
+    background-color: #1d1dc5;
+}
+
+
+/* the input in the div */
+.first-mini-div input{
+    width: 200px;
+    height: 25px;
+}
+
+/* the second-mini-con-div*/
+.second-mini-con-div{
+    font-size: 25px;
+    padding-top: 70px;
+    font-weight: bold;
+    color: #1d1d72;
+}
+
+.second-mini-con-div a{
+    text-decoration: none;
+    padding: 20px;
+}
+/* The end of the first section */
+
+/* The second section starts here */
+
+/* The login div starts here which is in the second section */
+.second-sess{
+    /*background: linear-gradient(25deg, #8600b3 50%, #cc33ff 50);*/
+    background: rgb(174, 106, 252);
+    padding: 20px;
+    color: brown; 
+}
+
+/* the stylying for the background of the only div inside rthe second section*/
+.login-div{
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    margin:  auto;
+}
+
+/* this is for login label in the second div */
+.login-div .Login-label{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 100px;
+}
+
+/* the styling for the login input */
+
+.second-sess p input{
+    width: 80%;
+    justify-content: center;
+    border: solid 2px blue;
+    border-radius: 5px;
+    padding: 10px ;
+    margin: 15px 15px 15px 20px;
+}
+
+/* the styling of the submit botton */
+.second-sess p submit{
+    
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 80%;
+    padding: 10px 20px 10px 20px;
+    /*margin:  15px 10px 50px;*/
+    background-color: #42f578;
+    margin: 15px 15px 10px 50px;
+
+}
+
+.last-man label{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    
+    margin: 10px;
+}
+/* The second session ends here */
+
+/* The third section starts here */
+.third-sess-first-div{
+    display: flex;
+    background-color: white;
+}
+
+/* The first div of the section starts here */
+.first-div-third-sess{
+    width: 50%;
+    background-color: #e1ede4;
+    padding: 40px;
+}
+
+.first-div-third-sess h2{
+    font-weight: bold;
+    font-size: 40px;
+    color: #1d1dc5;
+    }
+
+.first-div-third-sess p{
+    font-size: 25px;
+    font-weight: bold;
+    color: #06065e;
+    padding: 50px 10px 10px 0px;
+}
+/* The first div of the section ends here */
+
+/* The second div of the section starts here */
+.second-sess-first-div{
+    width: 50%;
+}
+/* The div of the part with image */
+
+.second-sess-first-div img{
+    width: 700px;
+}
+/* The third section ends here */
+
+/* The footer styling starts here */
+.footer-container{
+    display: flex;
+    padding: 20px;
+    margin: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* The first div in footer starts here */
+.first-div-footer{
+    width: 35%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* The image in the first div part */
+#img-one{
+    width: 30px;
+    margin: 0 10px;
+    }
+
+#img-two{
+    width: 30px;
+    margin: 0 10px;
+}
+
+#img-three{
+    width: 30px;
+    margin: 0 10px;
+}
+
+#img-four{
+    width: 30px;
+    margin: 0 10px;
+}
+
+#img-five{
+    width: 30px;
+    margin: 0 10px;
+}
+
+#img-six{
+    width: 30px;
+    margin: 0 10px;
+}
+/* The styling of the image here is for sizing the images */
+
+/* The styling for the second div in footer starts here */
+.second-div-footer a{
+    text-decoration: none;
+    margin: 0 7px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #06065e;
+}
+
+
